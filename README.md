@@ -51,7 +51,7 @@
 1. `ChatGPTAPI` 使用 `gpt-3.5-turbo-0301` 通过官方`OpenAI`补全`API`模拟`ChatGPT`（最稳健的方法，但它不是免费的，并且没有使用针对聊天进行微调的模型）
 2. `ChatGPTUnofficialProxyAPI` 使用非官方代理服务器访问 `ChatGPT` 的后端`API`，绕过`Cloudflare`（使用真实的的`ChatGPT`，非常轻量级，但依赖于第三方服务器，并且有速率限制）
 
-[查看详情](https://github.com/Chanzhaoyu/chatgpt-web/issues/138)
+[查看详情](https://github.com/longtianye/chatgpt-web-chan/issues/138)
 
 切换方式：
 1. 进入 `service/.env` 文件
@@ -284,7 +284,7 @@ A: 一种可能原因是经过 Nginx 反向代理，开启了 buffer，则 Nginx
 
 感谢所有做过贡献的人!
 
-<a href="https://github.com/Chanzhaoyu/chatgpt-web/graphs/contributors">
+<a href="https://github.com/longtianye/chatgpt-web-chan/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Chanzhaoyu/chatgpt-web" />
 </a>
 

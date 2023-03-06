@@ -5,8 +5,8 @@
 手动部署的同学，务必删除根目录和`service`中的`node_modules`重新安装依赖，降低出现问题的概率，自动部署的不需要做改动。
 
 ### Feature
-- 感谢 [hyln9](https://github.com/Chanzhaoyu/chatgpt-web/pull/247) 添加对渲染 `LaTex` 数学公式的支持
-- 感谢 [ottocsb](https://github.com/Chanzhaoyu/chatgpt-web/pull/227) 添加支持 `webAPP` (苹果添加到主页书签访问)支持
+- 感谢 [hyln9](https://github.com/longtianye/chatgpt-web-chan/pull/247) 添加对渲染 `LaTex` 数学公式的支持
+- 感谢 [ottocsb](https://github.com/longtianye/chatgpt-web-chan/pull/227) 添加支持 `webAPP` (苹果添加到主页书签访问)支持
 - 添加 `OPENAI_API_BASE_URL` 可选环境变量[#249]
 ## Enhancement
 - 优化在高分屏上主题内容的最大宽度[#257]
@@ -28,10 +28,10 @@
 - 完善多语言，现在可以切换中英文显示
 
 ## Enhancement
-- 由[Zo3i](https://github.com/Chanzhaoyu/chatgpt-web/pull/187) 完善 `docker-compose` 部署文档
+- 由[Zo3i](https://github.com/longtianye/chatgpt-web-chan/pull/187) 完善 `docker-compose` 部署文档
 
 ### BugFix
-- 由 [ottocsb](https://github.com/Chanzhaoyu/chatgpt-web/pull/200) 修复头像修改不同步的问题
+- 由 [ottocsb](https://github.com/longtianye/chatgpt-web-chan/pull/200) 修复头像修改不同步的问题
 ## Other
 - 更新依赖至最新
 - 修改 `README` 内容
@@ -78,7 +78,7 @@
 
 `2023-02-27`
 
-- 感谢 [puppywang](https://github.com/Chanzhaoyu/chatgpt-web/commit/628187f5c3348bda0d0518f90699a86525d19018) 修复了 `2.7.0` 版本中关于流输出数据的问题（使用 `nginx` 需要自行配置 `octet-stream` 相关内容）
+- 感谢 [puppywang](https://github.com/longtianye/chatgpt-web-chan/commit/628187f5c3348bda0d0518f90699a86525d19018) 修复了 `2.7.0` 版本中关于流输出数据的问题（使用 `nginx` 需要自行配置 `octet-stream` 相关内容）
 
 - 关于为什么使用 `octet-stream` 而不是 `sse`，是因为更好的兼容之前的模式。
 
@@ -101,9 +101,9 @@
 `2023-02-25`
 
 ### Feature
-- 适配系统深色模式 [#118](https://github.com/Chanzhaoyu/chatgpt-web/issues/103)
+- 适配系统深色模式 [#118](https://github.com/longtianye/chatgpt-web-chan/issues/103)
 ### BugFix
-- 修复用户消息能被渲染为 `HTML` 问题 [#117](https://github.com/Chanzhaoyu/chatgpt-web/issues/117)
+- 修复用户消息能被渲染为 `HTML` 问题 [#117](https://github.com/longtianye/chatgpt-web-chan/issues/117)
 
 ## v2.7.2
 
@@ -156,17 +156,17 @@
 
 `2023-02-21`
 ### Feature
-- 新增对 `网页 accessToken` 调用 `ChatGPT`，更智能不过不太稳定 [#51](https://github.com/Chanzhaoyu/chatgpt-web/issues/51)
+- 新增对 `网页 accessToken` 调用 `ChatGPT`，更智能不过不太稳定 [#51](https://github.com/longtianye/chatgpt-web-chan/issues/51)
 - 前端页面设置按钮显示查看当前后端服务配置
 
 ### Enhancement
-- 新增 `TIMEOUT_MS` 环境变量设定后端超时时常（单位：毫秒）[#62](https://github.com/Chanzhaoyu/chatgpt-web/issues/62)
+- 新增 `TIMEOUT_MS` 环境变量设定后端超时时常（单位：毫秒）[#62](https://github.com/longtianye/chatgpt-web-chan/issues/62)
 
 ## v2.5.2
 
 `2023-02-21`
 ### Feature
-- 增加对 `markdown` 格式的支持 [Demo](https://github.com/Chanzhaoyu/chatgpt-web/pull/77)
+- 增加对 `markdown` 格式的支持 [Demo](https://github.com/longtianye/chatgpt-web-chan/pull/77)
 ### BugFix
 - 重载会话时滚动条保持
 
@@ -318,4 +318,4 @@
 
 ### BugFix
 - 修复新增信息容器不会自动滚动到问题
-- 修复文本过长不换行到问题 [#1](https://github.com/Chanzhaoyu/chatgpt-web/issues/1)
+- 修复文本过长不换行到问题 [#1](https://github.com/longtianye/chatgpt-web-chan/issues/1)
